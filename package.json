@@ -1,0 +1,15 @@
+{
+  "name": "assignmentform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "urlCustom.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "tinyurl": "^1.1.7"
+  }
+}

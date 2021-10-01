@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            .checkbox-label,
+            .radio-label {
+                white-space: nowrap;
+            }
+        </style>
+    </head>
+    <body>
+        <!--
+            range (explore)
+            time (explore)
+            image (explore)
+            url (explore)
+            color (explore)
+        -->
+        <form action="/message">
+            <datalist id="city">
+                <option value="NDLS">New Delhi</option>
+                <option selected value="CST">Mumbai</option>
+                <option value="KOAA">Kolkata</option>
+                <option value="MAS">Chennai</option>
+            </datalist>
+
+            <div class="form-group">
+                <label for="full-name-of-user">Name</label>
+                <input
+                    type="text"
+                    name="fullname"
+                    id="full-name-of-user"
+                    placeholder="Your name"
+                
+                />
+            </div>
+
+            <div class="form-group">
+                <label for="login-password">Password</label>
+                <input
+                    type="password"
+                    name="password"
+                    id="login-password"
+                    required
+                />
+            </div>
+
+            <div class="form-group">
+                <textarea
+                    name="message"
+                    rows="5"
+                    cols="40"
+                    minlength="10"
+                >Hello there!</textarea>
+            </div>
+
+            <div class="form-group">
+                <select name="city">
+                    <option value="NDLS">New Delhi</option>
+                    <option selected value="CST">Mumbai</option>
+                    <option value="KOAA">Kolkata</option>
+                    <option value="MAS">Chennai</option>
+                </select>
+            </div>
+
+            <hr />
+            <br />
+            <br />
+            <br />
+
+        
+
+    
+
+            <div class="form-group">
+                <label for="email-of-user">mail</label>
+                <input
+                    type="email"
+                    name="email"
+                    id="email-of-user"
+                
+                
+                />
+            </div>
+
+            
+
+            <div class="form-group">
+                <input
+                    type="submit"
+                    value="Send the message (submit)"
+
+                />
+            
+            
+                
+            </div>
+        </form>
+    </body>
+</html> 
